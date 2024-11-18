@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="О техникуме"
+        android:id="@+id/menuAboutONT"
+        android:icon="@drawable/home"/>
+    <item android:title="Специализации"
+    android:id="@+id/menuSpecializations"
+    android:icon="@drawable/specializations"/>
+    <item android:title="Преподаватели"
+        android:id="@+id/menuTeachers"
+        android:icon="@drawable/person" />
+    <item android:title="Администрация"
+        android:id="@+id/menuAdministrations"
+        android:icon="@drawable/administration"/>
+    <item android:title="О разработчике"
+        android:id="@+id/menuAboutDelevoper"
+        android:icon="@drawable/question_mark"/>
+</menu>
