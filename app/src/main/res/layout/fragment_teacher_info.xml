@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginBottom="15dp"
+        android:background="?attr/background"
         android:gravity="center"
         android:text="Информация о преподавателе"
         android:textSize="24sp" />
