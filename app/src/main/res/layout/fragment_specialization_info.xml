@@ -5,8 +5,7 @@
     android:layout_height="match_parent"
     android:layout_margin="10dp"
     android:orientation="vertical"
-    tools:context=".TeacherInfoFragment">
-
+    tools:context=".SpecializationInfoFragment" >
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
@@ -14,43 +13,41 @@
         android:layout_gravity="center"
         android:layout_marginBottom="15dp"
         android:gravity="center"
-        android:text="Информация о преподавателе"
+        android:text="Информация о специальности"
         android:textSize="24sp" />
 
     <TextView
-        android:id="@+id/tvFIO"
+        android:id="@+id/tvCodeAndName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:layout_weight="0"
-        android:text="ФИО: Пиличев Семён Александрович"
+        android:text="09.02.07"
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/tvDescription"
+        android:id="@+id/tvDuration"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:layout_weight="0"
-        android:text="Специалист по информационным системам по специальности 09.02.07 Информационные системы и программирование"
+        android:text="срок"
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/tvEducation"
+        android:id="@+id/tvQualification"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:layout_weight="0"
-        android:text="Образование: Высшее, Среднее профессиональное, ГАПОУ «Орский индустриальный колледж», 2021 г.  "
+        android:text="Квалификация"
         android:textSize="20sp" />
-
     <TextView
-        android:id="@+id/tvTeaches"
+        android:id="@+id/tvSeatsCount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:layout_weight="0"
-        android:text="Преподаваемые дисциплины: Специальные дисциплины, УП  по 09.02.07 "
+        android:text="Кол-во мест"
         android:textSize="20sp" />
-
 </LinearLayout>

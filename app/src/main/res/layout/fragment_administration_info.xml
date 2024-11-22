@@ -5,8 +5,7 @@
     android:layout_height="match_parent"
     android:layout_margin="10dp"
     android:orientation="vertical"
-    tools:context=".TeacherInfoFragment">
-
+    tools:context=".AdministrationInfoFragment">
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
@@ -14,7 +13,7 @@
         android:layout_gravity="center"
         android:layout_marginBottom="15dp"
         android:gravity="center"
-        android:text="Информация о преподавателе"
+        android:text="Информация о администраторе"
         android:textSize="24sp" />
 
     <TextView
@@ -24,6 +23,14 @@
         android:layout_marginBottom="10dp"
         android:layout_weight="0"
         android:text="ФИО: Пиличев Семён Александрович"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tvWorkingPosition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0"
+        android:text="Должность: "
         android:textSize="20sp" />
 
     <TextView
@@ -52,5 +59,4 @@
         android:layout_weight="0"
         android:text="Преподаваемые дисциплины: Специальные дисциплины, УП  по 09.02.07 "
         android:textSize="20sp" />
-
 </LinearLayout>

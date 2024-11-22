@@ -23,7 +23,7 @@ class TeacherAdapter(var teacherList: List<Teacher>,
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val teacher = teacherList[position]
         holder.tvFIO.text = "${teacher.secondName} ${teacher.firstName} ${teacher.middleName}"
-        holder.tvSpecialization.text = teacher.specialization
+        holder.tvSpecialization.text = teacher.description
         holder.itemView.setOnClickListener{
             onItemClick(teacher, position)
         }

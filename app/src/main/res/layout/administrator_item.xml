@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:paddingBottom="10dp">
     <TextView
-        android:id="@+id/tvTeacherFIO"
+        android:id="@+id/tvAdministratorFIO"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
@@ -15,9 +14,19 @@
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/tvAdministratorWorkingPosition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:text="Директор"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvAdministratorFIO" />
 
     <TextView
-        android:id="@+id/tvSpecialization"
+        android:id="@+id/tvDescription"
         android:layout_width="390dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
@@ -26,5 +35,5 @@
         android:text="Специалист по информационным системам по специальности 09.02.07 Информационные системы и программирование"
         android:textSize="16dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvTeacherFIO" />
+        app:layout_constraintTop_toBottomOf="@+id/tvAdministratorWorkingPosition" />
 </androidx.constraintlayout.widget.ConstraintLayout>
