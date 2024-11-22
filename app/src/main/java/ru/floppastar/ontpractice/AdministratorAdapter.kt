@@ -12,6 +12,7 @@ class AdministratorAdapter(var adminList: List<Administration>,
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val tvFIO: TextView = itemView.findViewById(R.id.tvAdministratorFIO)
+        val tvWorkingPosition: TextView = itemView.findViewById(R.id.tvAdministratorWorkingPosition)
         val tvDescription: TextView = itemView.findViewById(R.id.tvDescription)
     }
 
@@ -23,6 +24,7 @@ class AdministratorAdapter(var adminList: List<Administration>,
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val admin = adminList[position]
         holder.tvFIO.text = "${admin.secondName} ${admin.firstName} ${admin.middleName}"
+        holder.tvWorkingPosition.text = admin.workingPosition
         holder.tvDescription.text = admin.description
         holder.itemView.setOnClickListener {
             onItemClick(admin, position)
